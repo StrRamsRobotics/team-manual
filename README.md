@@ -3,7 +3,7 @@
 ## Contributing
 You will need to learn [sphinx](https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html) and [Restructured Text](http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html).
 
-There are a few things you need to install on your computer before you can contribute/build. It is possible to create and edit `.rst` files from the GitHub repository in the browser, but it will not actually build the documentation, someone else will have to do it for you. Not such a bad thing if you give someone the heads-up.
+There are a few things you need to install on your computer before you can contribute/build. It is possible to create and edit `.rst` files from the GitHub repository in the browser, but it will not actually build the documentation, someone else will have to do it for you. Not such a bad thing as long as you give someone the heads-up to build it.
 
 ## Clone the Repository
 First you need to [install Git](https://www.linode.com/docs/development/version-control/how-to-install-git-on-linux-mac-and-windows/).
