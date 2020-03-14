@@ -21,7 +21,7 @@ The prefered way is to use `pipenv` to manage Python envoronments, but this adds
 
 - [Download Python 3](https://www.python.org/downloads/).
 - Python 3 should come with `pip`. In the terminal, install the following:
-    - `$ pip install sphinx sphinx_rtd_theme doc8`
+    - `$ pip install sphinx sphinx_rtd_theme doc8 rstcheck`
 
 ## Modify `.rst` files
 At this point, your system should be ready to edit the `.rst` files, using [Restructured Text](http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html) markup. You can even have a look at existing files and the [cheatsheet](https://github.com/StrRamsRobotics/team-manual/blob/master/cheatsheet.rst) in this repo to see how to markup the text.
