@@ -6,6 +6,10 @@ You will need to learn [sphinx](https://docs.readthedocs.io/en/stable/intro/gett
 There are a few things you need to install on your computer before you can contribute/build. It is possible to create and edit `.rst` files from the GitHub repository in the browser, but it will not actually build the documentation, someone else will have to do it for you. Not such a bad thing if you give someone the heads-up.
 
 ## Clone the Repository
+First you need to [install Git](https://www.linode.com/docs/development/version-control/how-to-install-git-on-linux-mac-and-windows/).
+
+Once you have it installed, open up a terminal and navigate to a folder where you want to download the repository.
+
 In the terminal, clone this repo:
 ```sh
 $ git clone https://github.com/StrRamsRobotics/team-manual.git
