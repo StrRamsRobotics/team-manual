@@ -1,7 +1,15 @@
 :orphan:
 
-Sandbox
-=======
+Cheatsheet
+==========
+
+A more exaustive list can be found at the RST QuickRef_.
+
+.. _QuickRef: https://docutils.sourceforge.io/docs/user/rst/quickref.html
+
+
+Here is some in-line code: ``System.out.println("Hello");``.
+
 
 =====  =====  ======
 A      B      A or B
@@ -12,10 +20,19 @@ False  True   True
 False  False  False
 =====  =====  ======
 
->>> print("Hello")
-Hello
->>> 3 + 9
-12
+
+Example code:
+
+.. code-block:: java
+   :linenos:
+   :emphasize-lines: 3
+
+   public class Main {
+      public static void main(String[] args) {
+         System.out.println("Hello");
+      }
+   }
+
 
 This is a test.
 
@@ -29,16 +46,6 @@ This is a test.
 
 .. error:: This is an error.
 
-Example code:
-
-.. code-block:: python
-   :linenos:
-   :emphasize-lines: 2
-
-   import math
-   math.randrange(100)
-
-   print("cool")
 
 Subsection
 **********
