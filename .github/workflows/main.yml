@@ -26,10 +26,12 @@ jobs:
         path: docs/
 
     # Publish built docs to master branch.
-    # ===============================
+    # clone repo
+    - name: clone main repository
+      uses: actions/checkout@v2
+
     - name: Commit documentation changes
       run: |
-        git clone "https://$GITHUB_TOKEN@github.com/StrRamsRobotics/team-manual.git" --branch master --single-branch master
         cp -r docs/* gh-pages/
         cd gh-pages
         git config --local user.email "action@github.com"
