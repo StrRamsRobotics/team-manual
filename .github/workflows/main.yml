@@ -26,10 +26,6 @@ jobs:
         path: docs/
 
     # Publish built docs to master branch.
-    # clone repo
-    - name: clone main repository
-      uses: actions/checkout@v2
-
     - name: Commit documentation changes
       run: |
         cp -r docs/* gh-pages/
