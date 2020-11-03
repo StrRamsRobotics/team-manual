@@ -7,7 +7,7 @@ TESTING AUTOBUILD.
 
 A more exaustive list can be found at the RST QuickRef_.
 
-. _QuickRef: https://docutils.sourceforge.io/docs/user/rst/quickref.html
+.. _QuickRef: https://docutils.sourceforge.io/docs/user/rst/quickref.html
 
 
 Here is some in-line code: ``System.out.println("Hello");``.
