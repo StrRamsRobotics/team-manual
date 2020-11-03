@@ -30,7 +30,7 @@ jobs:
     - name: Commit documentation changes
       run: |
         git clone https://github.com/StrRamsRobotics/team-manual.git --branch master --single-branch master
-        cp -r docs/_build/html/* gh-pages/
+        cp -r docs/* gh-pages/
         cd gh-pages
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
