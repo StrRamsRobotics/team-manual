@@ -28,8 +28,6 @@ jobs:
     # Publish built docs to master branch.
     - name: Commit documentation changes
       run: |
-        cp -r docs/* gh-pages/
-        cd gh-pages
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add .
