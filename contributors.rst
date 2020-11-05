@@ -5,7 +5,7 @@ Contributors
 
 Thank you so much for helping make this manual amazing. Add yourself to the list of contributors! You've earned it!
 
-.. note:: Please do not put any private information on this (or any) page, the manual is publicly available.
+.. what?:: Please do not put any private information on this (or any) page, the manual is publicly available.
 
 .. contents::
 
