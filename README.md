@@ -1,8 +1,15 @@
 # Rams Robotics Team Manual
+This is the source repository for our [Rams Robotics Team Manual](https://strramsrobotics.github.io/team-manual/).
 
-## Contributing
-You will need to learn [sphinx](https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html) and [Restructured Text](http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html).
+This team manual is updated in two steps:
+1. Create/edit text files.
+2. Build the documentation by running a script (done automatically if contributing through GitHub.com).
 
+# Contributing through GitHub.com
+
+The text files will be formatted using a mark-up language called [Restructured Text](http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html). You can contribute to this manual knowing very little about Restructured Text, simply by editing existing files and learnring from examples.
+
+# Contributing from your own computer (Hard-core)
 There are a few things you need to install on your computer before you can contribute/build. It is possible to create and edit `.rst` files from the GitHub repository in the browser, but it will not actually build the documentation, someone else will have to do it for you. Not such a bad thing as long as you give someone the heads-up to build it.
 
 ## Clone the Repository
