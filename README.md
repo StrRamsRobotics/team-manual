@@ -5,9 +5,24 @@ This team manual is updated in two steps:
 1. Create/edit text files.
 2. Build the documentation by running a script (done automatically if contributing through GitHub.com).
 
-## Contributing through GitHub.com
-
 The text files will be formatted using a mark-up language called [Restructured Text](http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html). You can contribute to this manual knowing very little about Restructured Text, simply by editing existing files and learnring from examples.
+
+## Contributing through GitHub.com
+- In the team manual repo, edit the file called `contributors.rst`. Inside, under the appropriate year below, add:
+    - your name in the form of `F. Last`
+    - What sub-team you are part of
+    - a link to your GitHub profile
+        - E.g., `J. Smith (Design)`
+        - The `.rst` markup code would look like: ```J. Smith <https://github.com/githubusername/>`_ (Design)``
+
+- Scroll down to the bottom and select `Create a new branch for this commit and start a pull request`.
+- Then click the `Propose Changes` button.
+- Then click the `Create pull request` button.
+- When you refresh this page (after a few seconds) it will have performed some checks. If there are any errors, they will be shown in the `Files Changed` tab.
+- If you wish to make further changes, go to the `Files Changed` tab, click the `...` and then `Edit file`. You can commit directly into your branch.
+- The edits to the team manual will be held for review.
+
+If you want to see the `html` result of your change, in your Pull Request that was just generated, go to the `Checks` tab and look for `DocumentationHTML`.
 
 ## Contributing from your own computer (Hard-core)
 There are a few things you need to install on your computer before you can contribute/build. It is possible to create and edit `.rst` files from the GitHub repository in the browser, but it will not actually build the documentation, someone else will have to do it for you. Not such a bad thing as long as you give someone the heads-up to build it.
