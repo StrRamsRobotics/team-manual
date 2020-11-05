@@ -9,6 +9,9 @@ Thank you so much for helping make this manual amazing. Add yourself to the list
 
 .. contents::
 
+
+
+
 2020-2021
 ---------
 - `Mr. Gallo <https://github.com/mrgallo/>`_ (Mentor/Coach)
