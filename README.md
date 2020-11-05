@@ -5,7 +5,7 @@ This team manual is updated in two steps:
 1. Create/edit text files.
 2. Build the documentation by running a script (done automatically if contributing through GitHub.com).
 
-The text files will be formatted using a mark-up language called [Restructured Text](http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html). You can contribute to this manual knowing very little about Restructured Text, simply by editing existing files and learnring from examples.
+The text files will be formatted using a mark-up language called [Restructured Text](http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html). You can contribute to this manual knowing very little about Restructured Text, simply by editing existing files and learning from examples.
 
 ## Contributing through GitHub.com
 - In the team manual repo, edit the file called `contributors.rst`. Inside, under the appropriate year below, add:
