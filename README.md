@@ -13,7 +13,10 @@ The text files will be formatted using a mark-up language called [Restructured T
     - What sub-team you are part of
     - a link to your GitHub profile
         - E.g., `J. Smith (Design)`
-        - The `.rst` markup code would look like: ```J. Smith <https://github.com/githubusername/>`_ (Design)``
+        - The `.rst` markup code would look like: 
+        ```
+        `J. Smith <https://github.com/githubusername/>`_ (Design)
+        ```
 
 - Scroll down to the bottom and select `Create a new branch for this commit and start a pull request`.
 - Then click the `Propose Changes` button.
