@@ -1,4 +1,4 @@
-# Rams Robotics Team Manual Source Repository
+# Rams Robotics Team Manual
 This is the source repository for our [Rams Robotics Team Manual](https://strramsrobotics.github.io/team-manual/).
 
 This team manual is updated in two steps:
