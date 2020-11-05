@@ -8,6 +8,8 @@ This team manual is updated in two steps:
 The text files will be formatted using a mark-up language called [Restructured Text](http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html). You can contribute to this manual knowing very little about Restructured Text, simply by editing existing files and learning from examples.
 
 ## Contributing through GitHub.com
+I'll explain the process with a short tutorial.
+
 - In the team manual repo, edit the file called `contributors.rst`. Inside, under the appropriate year below, add:
     - your name in the form of `F. Last`
     - What sub-team you are part of
