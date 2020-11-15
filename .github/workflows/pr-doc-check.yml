@@ -10,7 +10,7 @@ jobs:
     - uses: ammaraskar/sphinx-action@master
       with:
         docs-folder: "./"
-        pre-build-command: pip install sphinx-rtd-theme
+        pre-build-command: pip install sphinx-rtd-theme recommonmark python-slugify
         build-command: sphinx-build -b html . docs
     
     # Create an artifact of the html output.
