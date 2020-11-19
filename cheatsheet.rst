@@ -39,6 +39,7 @@ This is a test.
 1. one
 #. two
 #. three
+#. four
 
 .. note:: This is a note.
 
