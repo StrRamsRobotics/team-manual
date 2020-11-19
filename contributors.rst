@@ -14,3 +14,5 @@ Thank you so much for helping make this manual amazing. Add yourself to the list
 - `Mr. Gallo <https://github.com/mrgallo/>`_ (Mentor/Coach)
 
 - `Samuel Han <https://github.com/SamTheCoder777/>`_ (Design)
+
+- `Tracy Zhang <https://github.com/TracyZhang1004/>`_ (Business/Marketing)
