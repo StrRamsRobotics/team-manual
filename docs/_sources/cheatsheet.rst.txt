@@ -3,9 +3,7 @@
 Cheatsheet
 ==========
 
-A more exaustive list can be found at the RST QuickRef_.
-
-.. _QuickRef: https://docutils.sourceforge.io/docs/user/rst/quickref.html
+A more exaustive list can be found at the `RST QuickRef <https://docutils.sourceforge.io/docs/user/rst/quickref.html>`_.
 
 
 Here is some in-line code: ``System.out.println("Hello");``.
