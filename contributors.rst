@@ -16,3 +16,5 @@ Thank you so much for helping make this manual amazing. Add yourself to the list
 - `Samuel Han <https://github.com/SamTheCoder777/>`_ (Design)
 
 - `T. Zhang <https://github.com/TracyZhang1004/>`_ (Business/Marketing)
+
+- `M. Hwang <https://github.com/MJ1310>`_ (Design)
