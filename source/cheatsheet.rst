@@ -5,6 +5,9 @@ Cheatsheet
 
 A more exaustive list can be found at the `RST QuickRef <https://docutils.sourceforge.io/docs/user/rst/quickref.html>`_.
 
+It is sometimes useful to link to a :ref:`Some Subsection` header. It is also useful to be able to change the text in the
+:ref:`link of a another section <Some Subsection>`. You can also link to other pages' subsections this way.
+
 
 Here is some in-line code: ``System.out.println("Hello");``.
 
@@ -46,8 +49,8 @@ This is a test.
 .. error:: This is an error.
 
 
-Subsection
-**********
+Some Subsection
+---------------
 
 .. raw:: html
 
