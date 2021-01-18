@@ -9,4 +9,5 @@ Rams Robotics Manual
 .. toctree::
    :maxdepth: 2
 
+   design/index
    template
