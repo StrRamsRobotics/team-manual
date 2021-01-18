@@ -8,7 +8,7 @@ This team manual is updated in two steps:
 The text files will be formatted using a mark-up language called [Restructured Text](http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html). You can contribute to this manual knowing very little about Restructured Text, simply by editing existing files and learning from examples.
 
 ## Contributing through GitHub.com
-I'll explain the process with a short tutorial.
+I'll explain the process with a short tutorial. **All source code files are in the folder called `source`.** This is where we make all our edits or add new files/folders.
 
 - In the team manual repo, edit the file called `contributors.rst`. Inside, under the appropriate year below, add:
     - your name in the form of `F. Last`
@@ -51,7 +51,7 @@ The prefered way is to use `pipenv` to manage Python envoronments, but this adds
     - `$ pip install sphinx sphinx_rtd_theme doc8 rstcheck`
 
 ### Modify `.rst` files
-At this point, your system should be ready to edit the `.rst` files, using [Restructured Text](http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html) markup. You can even have a look at existing files and the [cheatsheet](https://github.com/StrRamsRobotics/team-manual/blob/master/cheatsheet.rst) in this repo to see how to markup the text.
+At this point, your system should be ready to edit the `.rst` files, using [Restructured Text](http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html) markup. You can even have a look at existing files and the [cheatsheet](https://strramsrobotics.github.io/team-manual/cheatsheet.html) to see how to markup the text (At the top right of the page click the [View page source](https://strramsrobotics.github.io/team-manual/_sources/cheatsheet.rst.txt) link).
 
 In order to see the actual page, you will have to build the documentation (saved to the `docs/` folder) and open it in your browser.
 
@@ -59,7 +59,7 @@ In order to see the actual page, you will have to build the documentation (saved
 From the project root directory (the `team-manual` folder), type the following in the terminal:
 
 ```sh
-$ sphinx-build -b html . docs
+$ sphinx-build -b html source docs
 ```
 
 ### Commit and push

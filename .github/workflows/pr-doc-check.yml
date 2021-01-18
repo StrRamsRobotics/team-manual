@@ -9,9 +9,9 @@ jobs:
     - uses: actions/checkout@v1
     - uses: ammaraskar/sphinx-action@master
       with:
-        docs-folder: "./"
+        docs-folder: "source"
         pre-build-command: pip install sphinx-rtd-theme
-        build-command: sphinx-build -b html . docs
+        build-command: sphinx-build -b html source docs
     
     # Create an artifact of the html output.
     - uses: actions/upload-artifact@v1
