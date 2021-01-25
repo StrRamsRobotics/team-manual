@@ -1,7 +1,7 @@
 Quick Guide on Construct
 ========================
 
-.. figure:: RackMultipart20201202-4-1x6lrqa_html_40596387f6ca0cd1.png
+.. figure:: Const#1.png
    :alt: 
 
 Construct: The support tool
@@ -17,7 +17,7 @@ Construct: The support tool
 Planes: 2D
 ----------
 
-.. figure:: RackMultipart20201202-4-1x6lrqa_html_a65b2214e79d28d8.png
+.. figure:: Const#2.png
    :alt: 
 
 -  Flat 2D planes can be made using Construct, with the default option
@@ -26,12 +26,12 @@ Planes: 2D
    variety of shapes with different tools
 -  For Example, Loft:
 
-.. figure:: RackMultipart20201202-4-1x6lrqa_html_ee190d888ff33796.png
+.. figure:: Const#3.png
    :alt: 
 
 -  A sketch can be drawn on an Offset Plane to set up the loft tool
 
-.. figure:: RackMultipart20201202-4-1x6lrqa_html_893e89b48ecf2491.png
+.. figure:: Const#4.png
    :alt: 
 
 -  As you can see, a transitional shape was created between the two
@@ -42,7 +42,7 @@ Planes: 2D
 Axes: 1D
 --------
 
-.. figure:: RackMultipart20201202-4-1x6lrqa_html_53373de58c65281e.png
+.. figure:: Const#5.png
    :alt: 
 
 -  A straight 1 dimensional line or axis, can be created with Construct
@@ -50,7 +50,7 @@ Axes: 1D
    edge
 -  This is useful in combination with other tools such as revolve:
 
-.. figure:: RackMultipart20201202-4-1x6lrqa_html_cecc4870e40d8959.png
+.. figure:: Const#6.png
    :alt: 
 
 -  A sketch can be Revolved around a Constructed Axis |image0|
@@ -60,7 +60,7 @@ Axes: 1D
 Points: 0D
 ----------
 
-.. figure:: RackMultipart20201202-4-1x6lrqa_html_db32592d42cc0210.png
+.. figure:: Const#7.png
    :alt: 
 
 -  With Construct, a single point can be created to use as a vertex
@@ -75,6 +75,6 @@ Points: 0D
 -  An axis can be created through these two points for further use
 -  The tools of Point Construct are just as the names suggest
 
-.. |image0| image:: RackMultipart20201202-4-1x6lrqa_html_600aa18b87c303c9.png
-.. |image1| image:: RackMultipart20201202-4-1x6lrqa_html_cef827bb1011a10.png
-.. |image2| image:: RackMultipart20201202-4-1x6lrqa_html_269f617ae95653ac.png
+.. |image0| image:: Const#8.png
+.. |image1| image:: Const#9.png
+.. |image2| image:: Const#10.png
