@@ -12,6 +12,7 @@ jobs:
         docs-folder: "source/"
         pre-build-command: pip install sphinx-rtd-theme
         build-command: sphinx-build -b html . docs
+
     
 #     # Create an artifact of the html output.
 #     - uses: actions/upload-artifact@v1
