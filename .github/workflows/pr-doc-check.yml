@@ -10,7 +10,7 @@ jobs:
     - uses: ammaraskar/sphinx-action@master
       with:
         docs-folder: "source/"
-        pre-build-command: pip install sphinx-rtd-theme
+        pre-build-command: pip install sphinx-rtd-theme sphinx_copybutton
         build-command: sphinx-build -b html . docs
 
     
