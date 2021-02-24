@@ -11,7 +11,7 @@ jobs:
       with:
         docs-folder: "source/"
         pre-build-command: pip install sphinx-rtd-theme sphinx_copybutton
-        build-command: sphinx-build -b html . docs
+        build-command: sphinx-build -b html . ../docs
 
     
     # Create an artifact of the html output.
