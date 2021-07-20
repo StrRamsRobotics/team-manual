@@ -1,0 +1,343 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Robot Design Basics Recap &mdash; Rams Robotics Manual  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/copybutton.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script src="../_static/clipboard.min.js"></script>
+        <script src="../_static/copybutton.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Rams Robotics Manual
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="index.html">Design</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../template.html">Contributing</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Rams Robotics Manual</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Robot Design Basics Recap</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/design/robot-design-basics-recap.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="robot-design-basics-recap">
+<h1><a class="toc-backref" href="#id1">Robot Design Basics Recap</a><a class="headerlink" href="#robot-design-basics-recap" title="Permalink to this headline">¶</a></h1>
+<div class="contents topic" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#robot-design-basics-recap" id="id1">Robot Design Basics Recap</a></p></li>
+<li><p><a class="reference internal" href="#levers-and-gears" id="id2">Levers and Gears</a></p></li>
+<li><p><a class="reference internal" href="#components-of-a-robot" id="id3">Components of a Robot</a></p></li>
+<li><p><a class="reference internal" href="#motors" id="id4">Motors</a></p></li>
+<li><p><a class="reference internal" href="#sensors" id="id5">Sensors</a></p></li>
+<li><p><a class="reference internal" href="#attributes-of-well-designed-robot" id="id6">Attributes of Well Designed Robot</a></p></li>
+</ul>
+</div>
+<p><strong>Objective</strong></p>
+<p>We want you to be able to design a robot and run simulations assessing the different attributes of your robot. In order to do that, you must also understand the aspects of a robot.</p>
+</div>
+<div class="section" id="levers-and-gears">
+<h1><a class="toc-backref" href="#id2">Levers and Gears</a><a class="headerlink" href="#levers-and-gears" title="Permalink to this headline">¶</a></h1>
+<p><strong>What is a lever?</strong></p>
+<p>All levers are composed of 4 main components: A lever arm, load, fulcrum and a load. More importantly, levers can be used to exert a greater force over a smaller distance, or a smaller force over a greater distance.</p>
+<img alt="https://cdn.discordapp.com/attachments/846835697905696808/846835774371659816/unknown.png" src="https://cdn.discordapp.com/attachments/846835697905696808/846835774371659816/unknown.png" />
+<dl class="simple">
+<dt><strong>Examples of levers</strong></dt><dd><ul class="simple">
+<li><p>If you open a book by holding the outer edges of the page, it is easy, but your hands travel a greater distance. This is an example of exerting a smaller force of a greater distance.</p></li>
+<li><p>If you open a book by holding the part of the page closer to the spine, it is more difficult, but the book will open faster as your hands travel a lesser distance.</p></li>
+</ul>
+</dd>
+</dl>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p><strong>What is a gear?</strong></p>
+<p>Gears are similar to levers but each tooth of the gear acts like the arm of a lever.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p><strong>Spur gears:</strong></p>
+<img alt="https://cdn.discordapp.com/attachments/846835697905696808/846836856020533248/unknown.png" src="https://cdn.discordapp.com/attachments/846835697905696808/846836856020533248/unknown.png" />
+<p>High torque and low speed: A small driving gear meshing with a larger gear would require the smaller gear to rotate multiple times to rotate the larger gear once. This is an example of exerting a smaller force (small radius from axis of small gear to teeth) being exerted over a greater distance (many rotations of small gear) and will result in a higher torque and lower speed of the driven gear (larger gear).</p>
+<img alt="https://cdn.discordapp.com/attachments/846835697905696808/846837040733618206/unknown.png" src="https://cdn.discordapp.com/attachments/846835697905696808/846837040733618206/unknown.png" />
+<p>High speed and low torque: A large driving gear meshing with a smaller gear will have one rotation of the large driving gear resulting in multiple rotations of the smaller gear. This is an example of a greater force (large radius from axis of gear to teeth) being exerted over a lesser distance (partial rotation of larger gear) and will result in a higher speed and lower torque.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>The amount of times that the driving gear rotates in relation to the rotations of the final gear in the train to rotate is known as a gear ratio.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Eg: If a driving gear with 25 teeth is meshing with a gear with 75 teeth, it will take 3 rotations of the driving gear for the driven gear to rotate once. This will result in a gear ratio of 3:1.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p><strong>Rack and pinion</strong></p>
+<img alt="https://cdn.discordapp.com/attachments/846835697905696808/846837539910189056/unknown.png" src="https://cdn.discordapp.com/attachments/846835697905696808/846837539910189056/unknown.png" />
+<p>The rack and pinion is used to convert rotational motion to lateral movement</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p><strong>Bevel gears</strong></p>
+<img alt="https://cdn.discordapp.com/attachments/846835697905696808/846837875664617512/unknown.png" src="https://cdn.discordapp.com/attachments/846835697905696808/846837875664617512/unknown.png" />
+<p>Bevel gears are used to transmit power to a different axis. Bevel gears can be different sizes resulting in similar relations found in spur gears</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p><strong>Worm gear</strong></p>
+<img alt="https://cdn.discordapp.com/attachments/846835697905696808/846838075434336286/unknown.png" src="https://cdn.discordapp.com/attachments/846835697905696808/846838075434336286/unknown.png" />
+<p>Worm gears are used to provide very high reduction ratios. A common use for the worm gear can be found in an adjustable wrench which is the combination of a worm gear and a rack.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p><strong>Sprocket</strong></p>
+<img alt="https://cdn.discordapp.com/attachments/846835697905696808/846838259886719073/unknown.png" src="https://cdn.discordapp.com/attachments/846835697905696808/846838259886719073/unknown.png" />
+<p>Sprockets are the term for gears that mesh with a chain. Gears and chains can be used to translate the position of the rotational force without the use of idler/intermediate gears. Gears attached with chairs also rotate in the same direction.</p>
+</div>
+<div class="section" id="components-of-a-robot">
+<h1><a class="toc-backref" href="#id3">Components of a Robot</a><a class="headerlink" href="#components-of-a-robot" title="Permalink to this headline">¶</a></h1>
+<p><strong>Chasis</strong></p>
+<p>A chassis (pronounced cha-sea) In robotics, chassis are composed of 4-5 wheels and a frame. There are multiple types of chassis with names derived from the wheels and visible structures used.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p><strong>Omni wheel</strong></p>
+<img alt="https://cdn.discordapp.com/attachments/846835697905696808/846838717590405211/unknown.png" src="https://cdn.discordapp.com/attachments/846835697905696808/846838717590405211/unknown.png" />
+<p>The omni wheel consists of a larger wheel with smaller wheels attached to it. It has low traction, but also offers minimal resistance to sideways movements.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p><strong>H-Drive / Omni drive</strong></p>
+<img alt="https://cdn.discordapp.com/attachments/846835697905696808/846838941243932702/unknown.png" src="https://cdn.discordapp.com/attachments/846835697905696808/846838941243932702/unknown.png" />
+<p>H-drive is an example of a chassis that utilizes the unique properties of omni wheels enabling the robot to move in 4 directions (up, down, left and right). However, this design is lacking without  much greater maneuverability options to compensate for this weakness.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p><strong>X-Drive</strong></p>
+<img alt="https://cdn.discordapp.com/attachments/846835697905696808/846839158046457925/unknown.png" src="https://cdn.discordapp.com/attachments/846835697905696808/846839158046457925/unknown.png" />
+<p>X-Drive also uses omni wheels, but this design also enables full speed strafing (side to side movement). It is however more difficult to program as trigonometry is required, and is more difficult to fine tune.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p><strong>Mecanum Drive</strong></p>
+<img alt="https://cdn.discordapp.com/attachments/846835697905696808/846839366835503154/unknown.png" src="https://cdn.discordapp.com/attachments/846835697905696808/846839366835503154/unknown.png" />
+<p>Mechanum drive uses 4 mecanum wheels and an optional high traction 5th wheel. It is able to move in all directions at relatively high speeds making it a popular choice for a chassis within FTC.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p><strong>Gear Trains/Gearbox</strong></p>
+<img alt="https://cdn.discordapp.com/attachments/846835697905696808/846839587560095764/unknown.png" src="https://cdn.discordapp.com/attachments/846835697905696808/846839587560095764/unknown.png" />
+<p>Gear trains are used to change the position, direction, orientation and/or speed/torque of a movement using a combination of some/all of the gears mentioned above.</p>
+</div>
+<div class="section" id="motors">
+<h1><a class="toc-backref" href="#id4">Motors</a><a class="headerlink" href="#motors" title="Permalink to this headline">¶</a></h1>
+<p>Motors are used to make parts of a robot move; often with the help of gears to alter the speed, torque, direction and orientation of the movement. There are many types of motors with unique properties that can be found here: <a class="reference external" href="https://www.motioncontrolonline.org/blog-article.cfm/Types-of-Electric-Motors/3">https://www.motioncontrolonline.org/blog-article.cfm/Types-of-Electric-Motors/3</a></p>
+</div>
+<div class="section" id="sensors">
+<h1><a class="toc-backref" href="#id5">Sensors</a><a class="headerlink" href="#sensors" title="Permalink to this headline">¶</a></h1>
+<dl class="simple">
+<dt>Some types of sensors:</dt><dd><ul class="simple">
+<li><p>Ultrasonic</p></li>
+<li><p>Light/vision</p></li>
+<li><p>Touch</p></li>
+</ul>
+</dd>
+</dl>
+</div>
+<div class="section" id="attributes-of-well-designed-robot">
+<h1><a class="toc-backref" href="#id6">Attributes of Well Designed Robot</a><a class="headerlink" href="#attributes-of-well-designed-robot" title="Permalink to this headline">¶</a></h1>
+<p><strong>Stability</strong></p>
+<p>The robot must be stable in order to provide consistent results. Stability is often found in robots with a compact design with a low and centered center of mass.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p><strong>Speed</strong></p>
+<p>Within the robotics competition, there is a time limit. The faster you can perform a task, the more of the task you can complete. This can be most effectively achieved by eliminating unnecessary movement and by completing multiple movements at the same time.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>It is important to have a balance of speed and stability in order to be able to consistently and quickly perform a task.</p>
+<img alt="https://cdn.discordapp.com/attachments/846835697905696808/846840524676530276/unknown.png" src="https://cdn.discordapp.com/attachments/846835697905696808/846840524676530276/unknown.png" />
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, FTC Team 16488.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
